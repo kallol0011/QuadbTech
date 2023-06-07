@@ -1,0 +1,91 @@
+
+
+.mainbox{
+    background: black;
+    padding-top: 6%;
+    padding-bottom: 1.1%;
+    height: 132vh;
+    
+    
+}
+.childBox{
+    /* background: brown; */
+    width: 70%;
+    
+    /* height: 100vh; */
+    margin: auto;
+    display: flex;
+
+}
+
+.childBox>div{
+    flex-basis: 40%;
+    /* background: #000; */
+}
+
+.childBox>div+div{
+    flex-basis: 60%;
+}
+
+img{
+    width: 100%;
+    margin: auto;
+    border-radius: 11px;
+}
+
+.texts{
+    /* background-color: rgb(24, 199, 18); */
+   text-align: left;
+   padding: 6rem 0px;
+   padding-left: 7rem;
+   display: grid;
+   
+   /* margin: auto; */
+
+
+   
+}
+
+.texts .name{
+  
+    font-size: 32px;
+}
+
+.texts>p{
+    font-size: 21px;
+    
+}
+
+.texts>div{
+    font-size: 16px;
+    /* display: grid; */
+    /* grid-template-columns: 18% 86%; */
+    margin-bottom: 11px;
+}
+
+
+.ticketbutton{
+    background: rgb(111, 16, 162);
+    width: 100%;
+    border-radius: 21px;
+    font-size: 18px;
+    /* height: 3rem ; */
+}
+
+.ticketbutton:hover{
+    
+    background: rgb(143, 64, 186);
+}
+
+@media screen and (max-width: 890px) {
+    
+    
+    .childBox{
+        display: grid;
+    }
+
+    .texts{
+        padding: 2rem 1.8rem ;
+    }
+
+}

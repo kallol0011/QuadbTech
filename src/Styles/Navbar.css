@@ -1,0 +1,45 @@
+
+.navbox{
+    height: 2.8rem;
+    width: 100%;
+    background-color: antiquewhite;
+    padding-top: 18px;
+}
+
+.nav-items{
+    color: black;
+}
+  .nav-links{
+    display: grid;
+    grid-template-columns:11% 62% 21%;
+    gap: 11px;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .nav-links .nav-texts{
+    display: flex;
+    gap: 21px;
+  }
+
+  .nav-links .logo{
+    font-size: 32px;
+    color: black;
+  }
+
+  .nav-links .buttonsBox{
+    display: flex;
+    justify-content: center;
+    gap: 21px;
+    align-items: center;
+  }
+
+  .nav-links .buttonsBox>button{
+    font-size: 15px;
+    width: 24%;
+    padding:7px 0px;
+    border-radius: 21px;
+    background-color: brown;
+    border: none;
+  }

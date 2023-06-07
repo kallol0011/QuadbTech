@@ -15,6 +15,11 @@
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -24,7 +29,35 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <title> Disney + Hotstar - Watch Tv shows and movies </title>
+
+    <style>
+      ::-webkit-scrollbar {
+        width: 11px;
+        background-color: #000000;
+      }
+      
+      
+      ::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 5px rgb(3, 86, 92); 
+        background-color: #000000;
+        border-radius: 10px;
+      }
+       
+      
+      ::-webkit-scrollbar-thumb {
+        background-image: linear-gradient(rgb(20, 76, 139), rgb(95, 4, 148));
+        border-radius: 11px;
+      }
+      
+      
+      ::-webkit-scrollbar-thumb:hover {
+        background-image: linear-gradient(rgb(9, 36, 125), rgb(111, 42, 239));
+        height: 197px; 
+      }
+      
+          </style>
+
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
